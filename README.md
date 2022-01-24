@@ -33,4 +33,4 @@ LINK FOR THE ANDROID APP: https://play.google.com/store/apps/details?id=braulio.
 * IN4          -> D5
 * +12V         -> 12V BATTERY PACK +(VE) TERMINAL
 * GND          -> GND
-* +5V          -> TO ARDUINO AND HC05 +(5V)PIN
+* +5V          -> TO ARDUINO AND HC05 +(5V) PIN
