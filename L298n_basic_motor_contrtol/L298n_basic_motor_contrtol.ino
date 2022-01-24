@@ -50,24 +50,24 @@ void stop()
           analogWrite(enA,0);
           analogWrite(enB,0);
 
-          digitalWrite(inPut1,0);
-          digitalWrite(inPut2,0);
+          digitalWrite(inPut1,LOW);
+          digitalWrite(inPut2,LOW);
 
-          digitalWrite(inPut3,0);
-          digitalWrite(inPut4,0);
+          digitalWrite(inPut3,LOW);
+          digitalWrite(inPut4,LOW);
 }
 
 
 //user defined function two named forward() to move the bot to fornt direction
 void forward()
 {         analogWrite(enA,250);
-          digitalWrite(inPut1,0);
-          digitalWrite(inPut2,1);
+          digitalWrite(inPut1,LOW);
+          digitalWrite(inPut2,HIGH);
           
 
           analogWrite(enB,250);
-          digitalWrite(inPut3,0);
-          digitalWrite(inPut4,1);
+          digitalWrite(inPut3,LOW);
+          digitalWrite(inPut4,HIGH);
           
 }
 
@@ -75,14 +75,14 @@ void forward()
 //user defined function three named back() to move the bot to backward direction
 void back()
 {         analogWrite(enA,250);
-          digitalWrite(inPut1,1);
-          digitalWrite(inPut2,0);
+          digitalWrite(inPut1,HIGH);
+          digitalWrite(inPut2,LOW);
           
 
           
           analogWrite(enB,250);
-          digitalWrite(inPut3,1);
-          digitalWrite(inPut4,0);
+          digitalWrite(inPut3,HIGH);
+          digitalWrite(inPut4,LOW);
           
 }
 
@@ -90,13 +90,13 @@ void back()
 //user defined function four named left() to turn the bot to left direction
 void left()
 {         analogWrite(enA,180);
-          digitalWrite(inPut1,0);
-          digitalWrite(inPut2,1);
+          digitalWrite(inPut1,LOW);
+          digitalWrite(inPut2,HIGH);
           
 
           analogWrite(enB,180);
-          digitalWrite(inPut3,1);
-          digitalWrite(inPut4,0);
+          digitalWrite(inPut3,HIGH);
+          digitalWrite(inPut4,LOW);
           
 }
 
@@ -104,12 +104,12 @@ void left()
 //user defined function five named right() to turn the bot to right direction
 void right()
 {         analogWrite(enA,180);
-          digitalWrite(inPut1,1);
-          digitalWrite(inPut2,0);
+          digitalWrite(inPut1,HIGH);
+          digitalWrite(inPut2,LOW);
           
 
           analogWrite(enB,180);
-          digitalWrite(inPut3,0);
-          digitalWrite(inPut4,1);
+          digitalWrite(inPut3,LOW);
+          digitalWrite(inPut4,HIGH);
           
 }
