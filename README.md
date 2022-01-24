@@ -17,6 +17,7 @@ Learn how to build a prototype of a two wheel bot which can be controlled throug
 * RXD          -> TX1
 * VCC          -> 5V
 * GND          -> GND
+
 PLEASE DISCONNECT THE TXD & RXD BEFORE UPLOADING THE CODE TO THE MCU.
 OTHERWISE THE CODE WILL NOT UPLOAD.
 AFTER UPLOADING CONNECT THE TX1 & RX0 TO THE HC05 MODULE'S RXD & TXD. 
