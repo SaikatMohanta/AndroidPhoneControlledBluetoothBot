@@ -1,12 +1,12 @@
 //motor 1 control pins decleration
 
 const int enA=10;     
-const int inPut1=9, inPut2=8;
+const int inPut1=2, inPut2=3;
 
 //motor 2 control pins decleration
 
-const int enB=5;
-const int inPut3=7, inPut4=6;
+const int enB=9;
+const int inPut3=4, inPut4=5;
 
 //setup function which runs only once
 void setup()
