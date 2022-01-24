@@ -20,7 +20,7 @@
 //GND          -> GND
 //*PLEASE DISCONNECT THE TXD & RXD BEFORE UPLOADING THE CODE TO THE MCU.
 //**OTHERWISE THE CODE WILL NOT UPLOAD.
-//**AFTER UPLOADING CONNECT THE TXD & RXD TO THE HC05 MODULE. 
+//**AFTER UPLOADING CONNECT THE TX1 & RX0 TO THE HC05 MODULE'S RXD & TXD. 
 //LINK FOR THE ANDROID APP: https://play.google.com/store/apps/details?id=braulio.calle.bluetoothRCcontroller&hl=en_IN&gl=US
 
 char i;   //a character type global variable to store the incoming serial data from HC05 module.
