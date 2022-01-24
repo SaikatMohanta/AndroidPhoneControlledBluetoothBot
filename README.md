@@ -12,7 +12,7 @@ Learn how to build a prototype of a two wheel bot which can be controlled throug
 * ANDROID PHONE
 
 ## BLETOOTH MODULE CONNECTIONS:
-* HC05         -> ARDUINO
+### HC05         -> ARDUINO
 * TXD          -> RX0
 * RXD          -> TX1
 * VCC          -> 5V
@@ -24,7 +24,7 @@ AFTER UPLOADING CONNECT THE TX1 & RX0 TO THE HC05 MODULE'S RXD & TXD.
 LINK FOR THE ANDROID APP: https://play.google.com/store/apps/details?id=braulio.calle.bluetoothRCcontroller&hl=en_IN&gl=US
 
 ## MOTOR DRIVER CONNECTIONS:
-MOTOR DRIVER -> ARDUINO
+### MOTOR DRIVER -> ARDUINO
 * ENA          -> D10
 * IN1          -> D2
 * IN2          -> D3
